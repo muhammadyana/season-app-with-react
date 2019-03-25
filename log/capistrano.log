@@ -38,3 +38,333 @@
  DEBUG [5c18c125] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.end ]
  DEBUG [e0b8611e] Finished in 1.019 seconds with exit status 1 (failed).
  ERROR linked file /home/rails/apps/season.react.muhammadyana.me/shared/.end does not exist on 128.199.232.216
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-26 03:05:47 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b247a2e9] Running /usr/bin/env mkdir -p /tmp/season.react.muhammadyana.me/ as rails@128.199.232.216
+ DEBUG [b247a2e9] Command: /usr/bin/env mkdir -p /tmp/season.react.muhammadyana.me/
+  INFO [d7915731] Finished in 4.110 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/season.react.muhammadyana.me/nvm-exec.sh 0.0%
+  INFO Uploading /tmp/season.react.muhammadyana.me/nvm-exec.sh 100.0%
+  INFO [f8ed617e] Running /usr/bin/env chmod +x /tmp/season.react.muhammadyana.me/nvm-exec.sh as rails@128.199.232.216
+ DEBUG [f8ed617e] Command: /usr/bin/env chmod +x /tmp/season.react.muhammadyana.me/nvm-exec.sh
+  INFO [70d6fb55] Finished in 1.106 seconds with exit status 0 (successful).
+ DEBUG [9abcd2e0] Running [ -d $HOME/.nvm/v11.3.0 ] || [ -d $HOME/.nvm/versions/node/v11.3.0 ] as rails@128.199.232.216
+ DEBUG [9abcd2e0] Command: [ -d $HOME/.nvm/v11.3.0 ] || [ -d $HOME/.nvm/versions/node/v11.3.0 ]
+ DEBUG [3574f6f6] Finished in 1.036 seconds with exit status 0 (successful).
+  INFO [4eee35d1] Running /usr/bin/env mkdir -p /tmp as rails@128.199.232.216
+ DEBUG [4eee35d1] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [25dc9387] Finished in 1.029 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh 0.0%
+  INFO Uploading /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh 100.0%
+  INFO [38c73d36] Running /usr/bin/env chmod 700 /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh as rails@128.199.232.216
+ DEBUG [38c73d36] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh )
+  INFO [d12eaeb5] Finished in 0.959 seconds with exit status 0 (successful).
+  INFO [f41ee01f] Running /usr/bin/env git ls-remote git@github.com:muhammadyana/season-app-with-react.git HEAD as rails@128.199.232.216
+ DEBUG [f41ee01f] Command: ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git ls-remote git@github.com:muhammadyana/season-app-with-react.git HEAD )
+ DEBUG [9b18cec0] 	e3ee1847bfd34490e990bdb13f32bdc1a1025345	HEAD
+  INFO [9b18cec0] Finished in 5.251 seconds with exit status 0 (successful).
+  INFO [b8b47873] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared /home/rails/apps/season.react.muhammadyana.me/releases as rails@128.199.232.216
+ DEBUG [b8b47873] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared /home/rails/apps/season.react.muhammadyana.me/releases )
+  INFO [adb956c0] Finished in 1.214 seconds with exit status 0 (successful).
+  INFO [cbee0b24] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared/node_modules as rails@128.199.232.216
+ DEBUG [cbee0b24] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared/node_modules )
+  INFO [a004a439] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [396c2a67] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared as rails@128.199.232.216
+ DEBUG [396c2a67] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared )
+  INFO [998b21a9] Finished in 0.989 seconds with exit status 0 (successful).
+ DEBUG [c1d2bb06] Running [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.env ] as rails@128.199.232.216
+ DEBUG [c1d2bb06] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.env ]
+ DEBUG [1ae31372] Finished in 0.934 seconds with exit status 0 (successful).
+ DEBUG [183eb07c] Running [ -f /home/rails/apps/season.react.muhammadyana.me/current/REVISION ] as rails@128.199.232.216
+ DEBUG [183eb07c] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/current/REVISION ]
+ DEBUG [e928a41c] Finished in 0.920 seconds with exit status 1 (failed).
+ DEBUG [882b94ad] Running [ -f /home/rails/apps/season.react.muhammadyana.me/repo/HEAD ] as rails@128.199.232.216
+ DEBUG [882b94ad] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/repo/HEAD ]
+ DEBUG [e3c508e3] Finished in 0.829 seconds with exit status 1 (failed).
+ DEBUG [57293215] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [57293215] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me'" 1>&2; false; fi
+ DEBUG [5acd93a8] Finished in 1.219 seconds with exit status 0 (successful).
+  INFO [da9c0ddb] Running /usr/bin/env git clone --mirror git@github.com:muhammadyana/season-app-with-react.git /home/rails/apps/season.react.muhammadyana.me/repo as rails@128.199.232.216
+ DEBUG [da9c0ddb] Command: cd /home/rails/apps/season.react.muhammadyana.me && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git clone --mirror git@github.com:muhammadyana/season-app-with-react.git /home/rails/apps/season.react.muhammadyana.me/repo )
+ DEBUG [39ce8a2a] 	Cloning into bare repository '/home/rails/apps/season.react.muhammadyana.me/repo'...
+  INFO [39ce8a2a] Finished in 6.860 seconds with exit status 0 (successful).
+ DEBUG [5b1ddb98] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [5b1ddb98] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi
+ DEBUG [921037d6] Finished in 1.019 seconds with exit status 0 (successful).
+  INFO [aea43648] Running /usr/bin/env git remote set-url origin git@github.com:muhammadyana/season-app-with-react.git as rails@128.199.232.216
+ DEBUG [aea43648] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git remote set-url origin git@github.com:muhammadyana/season-app-with-react.git )
+  INFO [6a1784b7] Finished in 1.009 seconds with exit status 0 (successful).
+  INFO [3e00a9cf] Running /usr/bin/env git remote update --prune as rails@128.199.232.216
+ DEBUG [3e00a9cf] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [5d9acec9] 	Fetching origin
+  INFO [5d9acec9] Finished in 4.252 seconds with exit status 0 (successful).
+ DEBUG [8c4d75db] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [8c4d75db] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi
+ DEBUG [b4c36a08] Finished in 1.227 seconds with exit status 0 (successful).
+  INFO [bdce76c3] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 as rails@128.199.232.216
+ DEBUG [bdce76c3] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 )
+  INFO [f8e8264b] Finished in 1.078 seconds with exit status 0 (successful).
+  INFO [dc612f0e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 as rails@128.199.232.216
+ DEBUG [dc612f0e] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 )
+  INFO [b5dab39a] Finished in 0.926 seconds with exit status 0 (successful).
+ DEBUG [5d994076] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [5d994076] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi
+ DEBUG [9138641b] Finished in 0.995 seconds with exit status 0 (successful).
+ DEBUG [1e74c2f5] Running /usr/bin/env git rev-list --max-count=1 master as rails@128.199.232.216
+ DEBUG [1e74c2f5] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a1ab1cdc] 	e3ee1847bfd34490e990bdb13f32bdc1a1025345
+ DEBUG [a1ab1cdc] Finished in 1.036 seconds with exit status 0 (successful).
+ DEBUG [b1fe9e60] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325200610'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [b1fe9e60] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325200610'" 1>&2; false; fi
+ DEBUG [e3913e79] Finished in 1.339 seconds with exit status 0 (successful).
+  INFO [bee77f24] Running /usr/bin/env echo "e3ee1847bfd34490e990bdb13f32bdc1a1025345" > REVISION as rails@128.199.232.216
+ DEBUG [bee77f24] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 && ( export NODE_VERSION="v11.3.0" ; /usr/bin/env echo "e3ee1847bfd34490e990bdb13f32bdc1a1025345" > REVISION )
+  INFO [21d72162] Finished in 0.742 seconds with exit status 0 (successful).
+  INFO [791f21b4] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 as rails@128.199.232.216
+ DEBUG [791f21b4] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 )
+  INFO [ecc2f570] Finished in 0.901 seconds with exit status 0 (successful).
+ DEBUG [f02b8879] Running [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/.env ] as rails@128.199.232.216
+ DEBUG [f02b8879] Command: [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/.env ]
+ DEBUG [227b7bb0] Finished in 0.895 seconds with exit status 1 (failed).
+ DEBUG [368b68b3] Running [ -f /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/.env ] as rails@128.199.232.216
+ DEBUG [368b68b3] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/.env ]
+ DEBUG [3b22f2a7] Finished in 1.462 seconds with exit status 1 (failed).
+  INFO [fcef6b2c] Running /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/.env /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/.env as rails@128.199.232.216
+ DEBUG [fcef6b2c] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/.env /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/.env )
+  INFO [85d1d07d] Finished in 1.020 seconds with exit status 0 (successful).
+  INFO [e90643cb] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 as rails@128.199.232.216
+ DEBUG [e90643cb] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 )
+  INFO [c7c6cb13] Finished in 0.920 seconds with exit status 0 (successful).
+ DEBUG [578e0238] Running [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/node_modules ] as rails@128.199.232.216
+ DEBUG [578e0238] Command: [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/node_modules ]
+ DEBUG [bc5eaf75] Finished in 0.951 seconds with exit status 1 (failed).
+ DEBUG [ad959a85] Running [ -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/node_modules ] as rails@128.199.232.216
+ DEBUG [ad959a85] Command: [ -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/node_modules ]
+ DEBUG [d3be77ac] Finished in 1.127 seconds with exit status 1 (failed).
+  INFO [921e0756] Running /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/node_modules /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/node_modules as rails@128.199.232.216
+ DEBUG [921e0756] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/node_modules /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610/node_modules )
+  INFO [1b21682f] Finished in 1.299 seconds with exit status 0 (successful).
+ DEBUG [0ffcea4d] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325200610'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [0ffcea4d] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325200610'" 1>&2; false; fi
+ DEBUG [41feec86] Finished in 1.092 seconds with exit status 0 (successful).
+  INFO [755cd1d6] Running /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn install --silent --no-progress as rails@128.199.232.216
+ DEBUG [755cd1d6] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 && ( export NODE_VERSION="v11.3.0" ; /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn install --silent --no-progress )
+ DEBUG [7d85d3b7] 	Now using node v11.3.0 (npm v6.4.1)
+  INFO [7d85d3b7] Finished in 55.430 seconds with exit status 0 (successful).
+ DEBUG [33dd7907] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325200610'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [33dd7907] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325200610'" 1>&2; false; fi
+ DEBUG [671f5754] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [dba6c415] Running /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn build as rails@128.199.232.216
+ DEBUG [dba6c415] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 && ( export NODE_VERSION="v11.3.0" ; /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn build )
+ DEBUG [32f4864f] 	Now using node v11.3.0 (npm v6.4.1)
+ DEBUG [32f4864f] 	yarn run v1.15.2
+ DEBUG [32f4864f] 	$ react-scripts build
+ DEBUG [32f4864f] 	Creating an optimized production build...
+ DEBUG [32f4864f] 	Compiled successfully.
+
+ DEBUG [32f4864f] 	File sizes after gzip:
+
+ DEBUG [32f4864f] 	  36.8 KB  build/static/js/2.abfd94e2.chunk.js
+ DEBUG [32f4864f] 	  1.03 KB  build/static/js/main.3b2ae9c2.chunk.js
+ DEBUG [32f4864f] 	  764 B    build/static/js/runtime~main.c5541365.js
+ DEBUG [32f4864f] 	  255 B    build/static/css/main.15c8f57c.chunk.css
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	The project was built assuming it is hosted at the server root.
+ DEBUG [32f4864f] 	You can control this with the homepage field in your package.json.
+ DEBUG [32f4864f] 	For example, add this to build it for GitHub Pages:
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	  "homepage" : "http://myname.github.io/myapp",
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	The build folder is ready to be deployed.
+ DEBUG [32f4864f] 	You may serve it with a static server:
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	  yarn global add serve
+ DEBUG [32f4864f] 	  serve -s build
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	Find out more about deployment here:
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	  https://bit.ly/CRA-deploy
+ DEBUG [32f4864f] 	
+ DEBUG [32f4864f] 	Done in 21.41s.
+  INFO [32f4864f] Finished in 24.889 seconds with exit status 0 (successful).
+  INFO [5de20e28] Running /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 /home/rails/apps/season.react.muhammadyana.me/releases/current as rails@128.199.232.216
+ DEBUG [5de20e28] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/releases/20190325200610 /home/rails/apps/season.react.muhammadyana.me/releases/current )
+  INFO [e1840716] Finished in 0.885 seconds with exit status 0 (successful).
+  INFO [9f4e5863] Running /usr/bin/env mv /home/rails/apps/season.react.muhammadyana.me/releases/current /home/rails/apps/season.react.muhammadyana.me as rails@128.199.232.216
+ DEBUG [9f4e5863] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mv /home/rails/apps/season.react.muhammadyana.me/releases/current /home/rails/apps/season.react.muhammadyana.me )
+  INFO [70065023] Finished in 0.903 seconds with exit status 0 (successful).
+ DEBUG [a0345265] Running /usr/bin/env ls -x /home/rails/apps/season.react.muhammadyana.me/releases as rails@128.199.232.216
+ DEBUG [a0345265] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ls -x /home/rails/apps/season.react.muhammadyana.me/releases )
+ DEBUG [db59b562] 	20190325200610
+ DEBUG [db59b562] Finished in 0.955 seconds with exit status 0 (successful).
+ DEBUG [25a25eff] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [25a25eff] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases'" 1>&2; false; fi
+ DEBUG [48537739] Finished in 1.478 seconds with exit status 0 (successful).
+  INFO [86d00bb0] Running /usr/bin/env echo "Branch master (at e3ee1847bfd34490e990bdb13f32bdc1a1025345) deployed as release 20190325200610 by yana" >> /home/rails/apps/season.react.muhammadyana.me/revisions.log as rails@128.199.232.216
+ DEBUG [86d00bb0] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases && ( export NODE_VERSION="v11.3.0" ; /usr/bin/env echo "Branch master (at e3ee1847bfd34490e990bdb13f32bdc1a1025345) deployed as release 20190325200610 by yana" >> /home/rails/apps/season.react.muhammadyana.me/revisions.log )
+  INFO [69a15e47] Finished in 0.880 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-26 03:38:40 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f94975dd] Running /usr/bin/env mkdir -p /tmp/season.react.muhammadyana.me/ as rails@128.199.232.216
+ DEBUG [f94975dd] Command: /usr/bin/env mkdir -p /tmp/season.react.muhammadyana.me/
+  INFO [86b7326c] Finished in 4.251 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/season.react.muhammadyana.me/nvm-exec.sh 0.0%
+  INFO Uploading /tmp/season.react.muhammadyana.me/nvm-exec.sh 100.0%
+  INFO [171127cc] Running /usr/bin/env chmod +x /tmp/season.react.muhammadyana.me/nvm-exec.sh as rails@128.199.232.216
+ DEBUG [171127cc] Command: /usr/bin/env chmod +x /tmp/season.react.muhammadyana.me/nvm-exec.sh
+  INFO [bd7d60e5] Finished in 0.959 seconds with exit status 0 (successful).
+ DEBUG [cde56ffb] Running [ -d $HOME/.nvm/v11.3.0 ] || [ -d $HOME/.nvm/versions/node/v11.3.0 ] as rails@128.199.232.216
+ DEBUG [cde56ffb] Command: [ -d $HOME/.nvm/v11.3.0 ] || [ -d $HOME/.nvm/versions/node/v11.3.0 ]
+ DEBUG [b6cb05d4] Finished in 1.254 seconds with exit status 0 (successful).
+  INFO [fb253879] Running /usr/bin/env mkdir -p /tmp as rails@128.199.232.216
+ DEBUG [fb253879] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [124a66a4] Finished in 1.036 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh 0.0%
+  INFO Uploading /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh 100.0%
+  INFO [5c226a21] Running /usr/bin/env chmod 700 /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh as rails@128.199.232.216
+ DEBUG [5c226a21] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh )
+  INFO [0482bc09] Finished in 1.065 seconds with exit status 0 (successful).
+  INFO [548383f8] Running /usr/bin/env git ls-remote git@github.com:muhammadyana/season-app-with-react.git HEAD as rails@128.199.232.216
+ DEBUG [548383f8] Command: ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git ls-remote git@github.com:muhammadyana/season-app-with-react.git HEAD )
+ DEBUG [82935f52] 	e3ee1847bfd34490e990bdb13f32bdc1a1025345	HEAD
+  INFO [82935f52] Finished in 4.197 seconds with exit status 0 (successful).
+  INFO [475ffa93] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared /home/rails/apps/season.react.muhammadyana.me/releases as rails@128.199.232.216
+ DEBUG [475ffa93] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared /home/rails/apps/season.react.muhammadyana.me/releases )
+  INFO [5d69eed3] Finished in 1.130 seconds with exit status 0 (successful).
+  INFO [bfe78af0] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared/node_modules as rails@128.199.232.216
+ DEBUG [bfe78af0] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared/node_modules )
+  INFO [80653fcd] Finished in 1.123 seconds with exit status 0 (successful).
+  INFO [91316861] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared as rails@128.199.232.216
+ DEBUG [91316861] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared )
+  INFO [3b556e96] Finished in 1.419 seconds with exit status 0 (successful).
+ DEBUG [17e43bfc] Running [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.env ] as rails@128.199.232.216
+ DEBUG [17e43bfc] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.env ]
+ DEBUG [754e0c10] Finished in 0.920 seconds with exit status 0 (successful).
+ DEBUG [5ec8bd6a] Running [ -f /home/rails/apps/season.react.muhammadyana.me/current/REVISION ] as rails@128.199.232.216
+ DEBUG [5ec8bd6a] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/current/REVISION ]
+ DEBUG [8c489ceb] Finished in 1.038 seconds with exit status 0 (successful).
+ DEBUG [17a3476f] Running /usr/bin/env cat /home/rails/apps/season.react.muhammadyana.me/current/REVISION 2>/dev/null as rails@128.199.232.216
+ DEBUG [17a3476f] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env cat /home/rails/apps/season.react.muhammadyana.me/current/REVISION 2>/dev/null )
+ DEBUG [8730f12f] 	e3ee1847bfd34490e990bdb13f32bdc1a1025345
+ DEBUG [8730f12f] Finished in 1.002 seconds with exit status 0 (successful).
+ DEBUG [5e676d31] Running [ -f /home/rails/apps/season.react.muhammadyana.me/repo/HEAD ] as rails@128.199.232.216
+ DEBUG [5e676d31] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/repo/HEAD ]
+ DEBUG [64931459] Finished in 0.996 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/rails/apps/season.react.muhammadyana.me/repo
+ DEBUG [e2db23fb] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [e2db23fb] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi
+ DEBUG [bc718a93] Finished in 0.892 seconds with exit status 0 (successful).
+  INFO [8dd54869] Running /usr/bin/env git remote set-url origin git@github.com:muhammadyana/season-app-with-react.git as rails@128.199.232.216
+ DEBUG [8dd54869] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git remote set-url origin git@github.com:muhammadyana/season-app-with-react.git )
+  INFO [d14f930b] Finished in 1.004 seconds with exit status 0 (successful).
+  INFO [ad6139d2] Running /usr/bin/env git remote update --prune as rails@128.199.232.216
+ DEBUG [ad6139d2] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [3f0902cf] 	Fetching origin
+  INFO [3f0902cf] Finished in 4.217 seconds with exit status 0 (successful).
+ DEBUG [6d8dd032] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [6d8dd032] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi
+ DEBUG [5b71d05d] Finished in 1.364 seconds with exit status 0 (successful).
+  INFO [3a8e5535] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 as rails@128.199.232.216
+ DEBUG [3a8e5535] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 )
+  INFO [48d11a31] Finished in 1.160 seconds with exit status 0 (successful).
+  INFO [43e675c7] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 as rails@128.199.232.216
+ DEBUG [43e675c7] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 )
+  INFO [6873b46e] Finished in 1.038 seconds with exit status 0 (successful).
+ DEBUG [6dbb2782] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [6dbb2782] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/repo; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/repo'" 1>&2; false; fi
+ DEBUG [11ee5e44] Finished in 1.007 seconds with exit status 0 (successful).
+ DEBUG [df912a54] Running /usr/bin/env git rev-list --max-count=1 master as rails@128.199.232.216
+ DEBUG [df912a54] Command: cd /home/rails/apps/season.react.muhammadyana.me/repo && ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [31e6956f] 	e3ee1847bfd34490e990bdb13f32bdc1a1025345
+ DEBUG [31e6956f] Finished in 1.110 seconds with exit status 0 (successful).
+ DEBUG [c503fcd7] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325203904'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [c503fcd7] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325203904'" 1>&2; false; fi
+ DEBUG [9fd6f9e2] Finished in 0.959 seconds with exit status 0 (successful).
+  INFO [1b234639] Running /usr/bin/env echo "e3ee1847bfd34490e990bdb13f32bdc1a1025345" > REVISION as rails@128.199.232.216
+ DEBUG [1b234639] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 && ( export NODE_VERSION="v11.3.0" ; /usr/bin/env echo "e3ee1847bfd34490e990bdb13f32bdc1a1025345" > REVISION )
+  INFO [5c0e76b1] Finished in 0.957 seconds with exit status 0 (successful).
+  INFO [51730bac] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 as rails@128.199.232.216
+ DEBUG [51730bac] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 )
+  INFO [257d4000] Finished in 0.998 seconds with exit status 0 (successful).
+ DEBUG [e4f57126] Running [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/.env ] as rails@128.199.232.216
+ DEBUG [e4f57126] Command: [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/.env ]
+ DEBUG [3c7c032a] Finished in 1.008 seconds with exit status 1 (failed).
+ DEBUG [cabc7c9b] Running [ -f /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/.env ] as rails@128.199.232.216
+ DEBUG [cabc7c9b] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/.env ]
+ DEBUG [042b62f5] Finished in 0.912 seconds with exit status 1 (failed).
+  INFO [8a4941e8] Running /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/.env /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/.env as rails@128.199.232.216
+ DEBUG [8a4941e8] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/.env /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/.env )
+  INFO [9e999447] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [870fd77c] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 as rails@128.199.232.216
+ DEBUG [870fd77c] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 )
+  INFO [d06e01a2] Finished in 1.016 seconds with exit status 0 (successful).
+ DEBUG [fe6aef75] Running [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/node_modules ] as rails@128.199.232.216
+ DEBUG [fe6aef75] Command: [ -L /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/node_modules ]
+ DEBUG [90d8da7d] Finished in 1.261 seconds with exit status 1 (failed).
+ DEBUG [454ebd72] Running [ -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/node_modules ] as rails@128.199.232.216
+ DEBUG [454ebd72] Command: [ -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/node_modules ]
+ DEBUG [b7c5cd6a] Finished in 1.322 seconds with exit status 1 (failed).
+  INFO [2df83830] Running /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/node_modules /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/node_modules as rails@128.199.232.216
+ DEBUG [2df83830] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/shared/node_modules /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904/node_modules )
+  INFO [b6bca903] Finished in 1.081 seconds with exit status 0 (successful).
+ DEBUG [10be9a1d] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325203904'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [10be9a1d] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325203904'" 1>&2; false; fi
+ DEBUG [4ec9a8b7] Finished in 0.956 seconds with exit status 0 (successful).
+  INFO [00f77186] Running /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn install --silent --no-progress as rails@128.199.232.216
+ DEBUG [00f77186] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 && ( export NODE_VERSION="v11.3.0" ; /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn install --silent --no-progress )
+ DEBUG [e2bea1c5] 	Now using node v11.3.0 (npm v6.4.1)
+  INFO [e2bea1c5] Finished in 18.521 seconds with exit status 0 (successful).
+ DEBUG [ef07054f] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325203904'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [ef07054f] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases/20190325203904'" 1>&2; false; fi
+ DEBUG [590b07f7] Finished in 1.128 seconds with exit status 0 (successful).
+  INFO [620f0c91] Running /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn build as rails@128.199.232.216
+ DEBUG [620f0c91] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 && ( export NODE_VERSION="v11.3.0" ; /tmp/season.react.muhammadyana.me/nvm-exec.sh yarn build )
+ DEBUG [9e9e90ff] 	Now using node v11.3.0 (npm v6.4.1)
+ DEBUG [9e9e90ff] 	yarn run v1.15.2
+ DEBUG [9e9e90ff] 	$ react-scripts build
+ DEBUG [9e9e90ff] 	Creating an optimized production build...
+ DEBUG [9e9e90ff] 	Compiled successfully.
+
+ DEBUG [9e9e90ff] 	File sizes after gzip:
+
+ DEBUG [9e9e90ff] 	  36.8 KB  build/static/js/2.abfd94e2.chunk.js
+ DEBUG [9e9e90ff] 	  1.03 KB  build/static/js/main.3b2ae9c2.chunk.js
+ DEBUG [9e9e90ff] 	  764 B    build/static/js/runtime~main.c5541365.js
+ DEBUG [9e9e90ff] 	  255 B    build/static/css/main.46034cbf.chunk.css
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	The project was built assuming it is hosted at the server root.
+ DEBUG [9e9e90ff] 	You can control this with the homepage field in your package.json.
+ DEBUG [9e9e90ff] 	For example, add this to build it for GitHub Pages:
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	  "homepage" : "http://myname.github.io/myapp",
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	The build folder is ready to be deployed.
+ DEBUG [9e9e90ff] 	You may serve it with a static server:
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	  yarn global add serve
+ DEBUG [9e9e90ff] 	  serve -s build
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	Find out more about deployment here:
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	  https://bit.ly/CRA-deploy
+ DEBUG [9e9e90ff] 	
+ DEBUG [9e9e90ff] 	Done in 21.51s.
+  INFO [9e9e90ff] Finished in 24.988 seconds with exit status 0 (successful).
+  INFO [aaec5c1e] Running /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 /home/rails/apps/season.react.muhammadyana.me/releases/current as rails@128.199.232.216
+ DEBUG [aaec5c1e] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ln -s /home/rails/apps/season.react.muhammadyana.me/releases/20190325203904 /home/rails/apps/season.react.muhammadyana.me/releases/current )
+  INFO [d35f0ac4] Finished in 1.329 seconds with exit status 0 (successful).
+  INFO [4decf32e] Running /usr/bin/env mv /home/rails/apps/season.react.muhammadyana.me/releases/current /home/rails/apps/season.react.muhammadyana.me as rails@128.199.232.216
+ DEBUG [4decf32e] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mv /home/rails/apps/season.react.muhammadyana.me/releases/current /home/rails/apps/season.react.muhammadyana.me )
+  INFO [c012713e] Finished in 1.110 seconds with exit status 0 (successful).
+ DEBUG [ee25079e] Running /usr/bin/env ls -x /home/rails/apps/season.react.muhammadyana.me/releases as rails@128.199.232.216
+ DEBUG [ee25079e] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env ls -x /home/rails/apps/season.react.muhammadyana.me/releases )
+ DEBUG [da6bc7cd] 	20190325200610	20190325203904
+ DEBUG [da6bc7cd] Finished in 1.119 seconds with exit status 0 (successful).
+ DEBUG [6e5fc099] Running if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases'" 1>&2; false; fi as rails@128.199.232.216
+ DEBUG [6e5fc099] Command: if test ! -d /home/rails/apps/season.react.muhammadyana.me/releases; then echo "Directory does not exist '/home/rails/apps/season.react.muhammadyana.me/releases'" 1>&2; false; fi
+ DEBUG [11dae747] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [65c130e2] Running /usr/bin/env echo "Branch master (at e3ee1847bfd34490e990bdb13f32bdc1a1025345) deployed as release 20190325203904 by yana" >> /home/rails/apps/season.react.muhammadyana.me/revisions.log as rails@128.199.232.216
+ DEBUG [65c130e2] Command: cd /home/rails/apps/season.react.muhammadyana.me/releases && ( export NODE_VERSION="v11.3.0" ; /usr/bin/env echo "Branch master (at e3ee1847bfd34490e990bdb13f32bdc1a1025345) deployed as release 20190325203904 by yana" >> /home/rails/apps/season.react.muhammadyana.me/revisions.log )
+  INFO [f0c306bc] Finished in 1.118 seconds with exit status 0 (successful).
