@@ -1,0 +1,40 @@
+# Logfile created on 2019-03-26 03:04:37 +0700 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-26 03:04:37 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f4620c4d] Running /usr/bin/env mkdir -p /tmp/season.react.muhammadyana.me/ as rails@128.199.232.216
+ DEBUG [f4620c4d] Command: /usr/bin/env mkdir -p /tmp/season.react.muhammadyana.me/
+  INFO [10466bd3] Finished in 4.118 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/season.react.muhammadyana.me/nvm-exec.sh 0.0%
+  INFO Uploading /tmp/season.react.muhammadyana.me/nvm-exec.sh 100.0%
+  INFO [900d845a] Running /usr/bin/env chmod +x /tmp/season.react.muhammadyana.me/nvm-exec.sh as rails@128.199.232.216
+ DEBUG [900d845a] Command: /usr/bin/env chmod +x /tmp/season.react.muhammadyana.me/nvm-exec.sh
+  INFO [e584e3a7] Finished in 0.920 seconds with exit status 0 (successful).
+ DEBUG [82c8669a] Running [ -d $HOME/.nvm/v11.3.0 ] || [ -d $HOME/.nvm/versions/node/v11.3.0 ] as rails@128.199.232.216
+ DEBUG [82c8669a] Command: [ -d $HOME/.nvm/v11.3.0 ] || [ -d $HOME/.nvm/versions/node/v11.3.0 ]
+ DEBUG [ca01f9ec] Finished in 0.928 seconds with exit status 0 (successful).
+  INFO [65a614e3] Running /usr/bin/env mkdir -p /tmp as rails@128.199.232.216
+ DEBUG [65a614e3] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [cec017a9] Finished in 1.000 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh 0.0%
+  INFO Uploading /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh 100.0%
+  INFO [14996bad] Running /usr/bin/env chmod 700 /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh as rails@128.199.232.216
+ DEBUG [14996bad] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh )
+  INFO [bf343a0d] Finished in 0.945 seconds with exit status 0 (successful).
+  INFO [d131871e] Running /usr/bin/env git ls-remote git@github.com:muhammadyana/season-app-with-react.git HEAD as rails@128.199.232.216
+ DEBUG [d131871e] Command: ( export NODE_VERSION="v11.3.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-season.react.muhammadyana.me-production-yana.sh" ; /usr/bin/env git ls-remote git@github.com:muhammadyana/season-app-with-react.git HEAD )
+ DEBUG [084d7364] 	beefa5f084b8774c6376b79627fdac833bc4281b	HEAD
+  INFO [084d7364] Finished in 4.283 seconds with exit status 0 (successful).
+  INFO [3da204b8] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared /home/rails/apps/season.react.muhammadyana.me/releases as rails@128.199.232.216
+ DEBUG [3da204b8] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared /home/rails/apps/season.react.muhammadyana.me/releases )
+  INFO [3bbf5482] Finished in 1.197 seconds with exit status 0 (successful).
+  INFO [7ee336b8] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared/node_modules as rails@128.199.232.216
+ DEBUG [7ee336b8] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared/node_modules )
+  INFO [888b1b73] Finished in 1.246 seconds with exit status 0 (successful).
+  INFO [c67546d5] Running /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared as rails@128.199.232.216
+ DEBUG [c67546d5] Command: ( export NODE_VERSION="v11.3.0" ; /usr/bin/env mkdir -p /home/rails/apps/season.react.muhammadyana.me/shared )
+  INFO [99192132] Finished in 1.130 seconds with exit status 0 (successful).
+ DEBUG [5c18c125] Running [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.end ] as rails@128.199.232.216
+ DEBUG [5c18c125] Command: [ -f /home/rails/apps/season.react.muhammadyana.me/shared/.end ]
+ DEBUG [e0b8611e] Finished in 1.019 seconds with exit status 1 (failed).
+ ERROR linked file /home/rails/apps/season.react.muhammadyana.me/shared/.end does not exist on 128.199.232.216
